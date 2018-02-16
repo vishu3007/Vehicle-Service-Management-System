@@ -1,0 +1,25 @@
+/* Your custom styles */
+.top-nav-collapse {
+    background-color: whitesmoke !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #82b1ff !important;
+    }
+}
+.intro-1 {
+    height: 1050px;
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+    .intro-1 {
+        height: 750px;
+    }
+}
+@media (max-width: 740px) {
+    .intro {
+        height: 600px;
+    }
+}
